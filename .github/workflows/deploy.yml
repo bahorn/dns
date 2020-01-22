@@ -14,3 +14,6 @@ jobs:
         python-version: '3.x'
     - run: 'pip install -r requirements.txt'
     - run: 'octodns-validate --config-file ./config/production.yaml'
+      env:
+        CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
+        CLOUDFLARE_EMAIL: ${{ secrets.CLOUDFLARE_EMAIL }}
