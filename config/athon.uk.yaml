@@ -1,0 +1,10 @@
+hack:
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: hheu.github.io.
+
+you:
+  type: TXT
+  value: hack.athon.uk <3 you
