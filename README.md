@@ -11,7 +11,8 @@ Please submit a PR if you want to make any changes!
 
 Read the documentation for octoDNS!
 
-Make sure you run `octodns-validate`
+Make sure you run `octodns-validate` and try a dry run with:
+`octodns-sync --config-file ./config/production.yaml athon.uk.`
 
 ## Adding a new subdomain
 
