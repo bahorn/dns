@@ -1,0 +1,6 @@
+hack:
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: hheu.github.io.
